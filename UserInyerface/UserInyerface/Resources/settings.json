@@ -1,0 +1,30 @@
+﻿{
+  "browserName": "chrome",
+  "isRemote": false,
+  "baseUrl": "https://userinyerface.com/",
+  "isElementHighlightEnabled": true,
+  "retry": {
+    "number": 2,
+    "pollingInterval": 300
+  },
+  "logger": {
+    "language": "en"
+  },
+  "timeouts": {
+    "timeoutImplicit": 0,
+    "timeoutCondition": 15,
+    "timeoutScript": 10,
+    "timeoutPageLoad": 30,
+    "timeoutPollingInterval": 150,
+    "timeoutCommand": 60
+  },
+  "driverSettings": {
+    "chrome": {
+      "startArguments": [
+        "--start-maximized",
+        "--incognito",
+        "--lang=en-US"
+      ]
+    }
+  }
+}

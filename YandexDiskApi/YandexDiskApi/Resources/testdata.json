@@ -1,0 +1,19 @@
+{
+  "textFileExtension": "txt",
+  "imageFileExtension": "jpg",
+  "imageResourcePath": "Resources/test-image.jpg",
+  "timeouts": {
+    "conditionSeconds": 60,
+    "pollingSeconds": 1,
+    "loginSeconds": 30,
+    "fileDisplayedSeconds": 12,
+    "fileDisappearedSeconds": 20,
+    "documentOpenSeconds": 15,
+    "documentTextSeconds": 60,
+    "imageDownloadSeconds": 30,
+    "trashSeconds": 20,
+    "passwordPageSeconds": 10,
+    "fingerprintSeconds": 120,
+    "manualConfirmationSeconds": 180
+  }
+}

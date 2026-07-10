@@ -1,0 +1,50 @@
+{
+  "browserName": "chrome",
+  "isRemote": false,
+  "remoteConnectionUrl": "http://localhost:4444/wd/hub",
+  "isElementHighlightEnabled": false,
+  "driverSettings": {
+    "chrome": {
+      "capabilities": {
+        "unhandledPromptBehavior": "default"
+      },
+      "options": {
+        "intl.accept_languages": "ru",
+        "safebrowsing.enabled": "true",
+        "profile.default_content_settings.popups": "0",
+        "disable-popup-blocking": "true"
+      },
+      "excludedArguments": [ "enable-automation" ],
+      "startArguments": [ "--incognito" ],
+      "pageLoadStrategy": "Normal"
+    },
+    "firefox": {
+      "capabilities": {
+        "unhandledPromptBehavior": "default"
+      },
+      "options": {
+        "intl.accept_languages": "ru"
+      },
+      "startArguments": [ "-private" ]
+    }
+  },
+  "timeouts": {
+    "timeoutImplicit": 0,
+    "timeoutCondition": 120,
+    "timeoutScript": 30,
+    "timeoutPageLoad": 60,
+    "timeoutPollingInterval": 300,
+    "timeoutCommand": 120
+  },
+  "retry": {
+    "number": 2,
+    "pollingInterval": 300
+  },
+  "logger": {
+    "language": "ru",
+    "logPageSource": true
+  },
+  "elementCache": {
+    "isEnabled": false
+  }
+}

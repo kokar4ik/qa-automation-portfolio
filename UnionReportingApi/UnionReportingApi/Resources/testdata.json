@@ -1,0 +1,18 @@
+{
+  "nexageProjectId": 1,
+  "nexageProjectName": "Nexage",
+  "projectNamePrefix": "TestProject_",
+  "testNamePrefix": "My API Test ",
+  "testMethodName": "com.test.MyTest#testMethod",
+  "defaultLogContent": "Test log line 1",
+  "defaultTestStatus": "In progress",
+  "testsPerPage": 20,
+  "ajaxRefreshTimeoutSeconds": 15,
+  "apiFormatRetryCount": 5,
+  "conditionTimeoutSeconds": 60,
+  "pollingIntervalSeconds": 1,
+  "projectSuccessAlertTimeoutSeconds": 5,
+  "expectedFooterVersionPrefix": "Version: ",
+  "defaultBrowser": "chrome",
+  "defaultEnvironment": "DESKTOP-TEST"
+}

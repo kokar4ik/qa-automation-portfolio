@@ -1,0 +1,11 @@
+﻿{
+  "registration": {
+    "emailPrefixLength": 7,
+    "emailDomainLength": 5,
+    "interestsCount": 3,
+    "avatarFileName": "avatar.png"
+  },
+  "timer": {
+    "initialValue": "00:00:00"
+  }
+}
